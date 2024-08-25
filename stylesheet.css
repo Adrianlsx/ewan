@@ -1141,119 +1141,6 @@ o @keyframes bannar_come {
     }
 }
 
-.balloons {
-    position: fixed;
-    bottom: 0; /* Align to the bottom of the viewport */
-    left: 0;   /* Align to the left edge */
-    width: 20vw; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
-    background-repeat: no-repeat;
-    background-size: contain; /* Scale to fit while maintaining aspect ratio */
-    transform: translateY(calc(-100% + 50px)); /* Adjust vertical position */
-    z-index: 99;
-    opacity: 0.6;
-}
-
-.balloons h2 {
-    text-transform: uppercase;
-    font-family: 'Signika', sans-serif;
-    font-size: 5vw; /* Responsive font size */
-    color: #BF4136;
-    text-shadow: 1vw 1vw 1vw #FFF; /* Responsive text shadow */
-    display: none;
-}
-
-#b1,
-#b11 {
-    background-image: url('b1.png');
-}
-
-#b2,
-#b22 {
-    background-image: url('b2.png');
-}
-
-#b3,
-#b33 {
-    background-image: url('b3.png');
-}
-
-#b4,
-#b44 {
-    background-image: url('b4.png');
-}
-
-#b5,
-#b55 {
-    background-image: url('b5.png');
-}
-
-#b6,
-#b66 {
-    background-image: url('b6.png');
-}
-
-#b7,
-#b77 {
-    background-image: url('b7.png');
-}
-
-#b8,
-#b88 {
-    background-image: url('b8.png');
-}
-
-#b9,
-#b99 {
-    background-image: url('b9.png');
-}
-
-#b10,
-#b100 {
-    background-image: url('b10.png');
-}
-
-#b12,
-#b101 {
-    background-image: url('b11.png');
-}
-
-.balloons-rotate-behaviour-one {
-    animation: balloons_rotate_one linear 10s infinite;
-    transform: rotate(30deg);
-}
-
-@keyframes balloons_rotate_one {
-    0% {
-        transform: rotate(30deg);
-    }
-    50% {
-        transform: rotate(-30deg);
-    }
-    100% {
-        transform: rotate(30deg);
-    }
-}
-
-.balloons-rotate-behaviour-two {
-    animation: balloons_rotate_two linear 10s infinite;
-    transform: rotate(-20deg);
-}
-
-@keyframes balloons_rotate_two {
-    0% {
-        transform: rotate(-20deg);
-    }
-    50% {
-        transform: rotate(20deg);
-    }
-    100% {
-        transform: rotate(-20deg);
-    }
-}
-
-
-
 .balloon-border {
     position: fixed;
     top: 100%;
@@ -1269,7 +1156,6 @@ o @keyframes bannar_come {
 
 #play,
 #bannar_coming,
-#balloons_flying,
 #cake_fadein,
 #light_candle,
 #wish_message,
