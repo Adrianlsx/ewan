@@ -1143,14 +1143,15 @@ o @keyframes bannar_come {
 
 .balloons {
     position: fixed;
-    bottom: 0; /* Position at the bottom of the viewport */
-    left: 0; /* Align to the left edge */
-    opacity: 0.6;
-    z-index: 99;
-    width: 10vw; /* Responsive width */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0;   /* Align to the left edge */
+    width: 20vw; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
     background-repeat: no-repeat;
     background-size: contain; /* Scale to fit while maintaining aspect ratio */
+    transform: translateY(calc(-100% + 50px)); /* Adjust vertical position */
+    z-index: 99;
+    opacity: 0.6;
 }
 
 .balloons h2 {
@@ -1250,6 +1251,7 @@ o @keyframes bannar_come {
         transform: rotate(-20deg);
     }
 }
+
 
 
 .balloon-border {
