@@ -7,7 +7,7 @@ body {
     -ms-transition: background-color linear 5s;
     transition: background-color linear 5s;
     overflow-x: hidden;
-    cursor: url('https://drive.google.com/file/d/1FuG995A-EyeyNKZ_wPnu0Pu_RbV3X-f6/view?usp=drive_link'), auto;
+    cursor: url('https://drive.google.com/file/d/1FuG995A-EyeyNKZ_wPnu0Pu_RbV3X-f6'), auto;
     /*background-image: url('bkground.jpg');*/
 }
 
